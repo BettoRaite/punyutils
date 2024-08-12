@@ -1,7 +1,7 @@
 {
   "name": "bettoraite-utilz",
   "type": "module",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "packageManager": "pnpm@9.5.0",
   "description": "A lib containing all the most common tools that I use.",
   "author": "bettoraite",
@@ -70,5 +70,8 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
+  },
+  "dependencies": {
+    "bettoraite-utilz": "^0.0.5"
   }
 }
